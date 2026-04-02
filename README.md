@@ -6,7 +6,7 @@ Daily log of my JavaScript journey, following the course curriculum.
 
 | Date       | Day | Topic(s) Covered                 | Status | Code Link |
 | :--------- | :-- | :------------------------------- | :----- | :-------- |
-| 2026-04-01 | 01  | Variables, Data Types, Operators | ✅ Done | [View](./01-basics-operators/) |
+| 2026-04-01 | 01  | Variables, Data Types, Operators | ✅ Done | [View](./01-data-types/) |
 |            |     |                                  |        |           |
 
 ---
