@@ -1,6 +1,6 @@
 //1
-let num = prompt("please enter an integer : ");
-if(num % 10 == 0) {
+let num = Number(prompt("please enter an integer : "));
+if(num % 10 === 0) {
     console.log("good");
 } else {
     console.log("bad");
@@ -12,6 +12,7 @@ alert(`${name} is ${age} years old.`)
 
 //3
 let quarter = Number(prompt("enter the current quarter : "));
+quarter = quarter%4;
 switch (quarter) {
     case 1:
         console.log("January, February, March");
@@ -29,24 +30,27 @@ switch (quarter) {
         break;
 }
 
+//4
 let str = prompt("enter a string : ");
-if(str[0] === 'A' || str[0] === 'a' && str.length > 5) {
-    console.table("golden string!");
+if((str[0] === 'A' || str[0] === 'a') && str.length > 5) {
+    console.log("golden string!");
 } else {
-    console.table("not a golden string!");
+    console.log("not a golden string!");
 }
 
+//5
 let a = 1, b = 2, c = 3;
 if(a >= b && a >= c) {
     console.log(`${a} is the largest`);
 } else if(b >= a && b >= c) {
     console.log(`${b} is the largest`);
-} else if(c >=b && c >= a) {
+} else {
     console.log(`${c} is the largest`);
 }
 
+//6 - bonus
 let x = 32, y = 47852;
-if(x%10 == y%10) {
+if(x%10 === y%10) {
     console.log("same last digits");
 } else {
     console.log("diff last digits");
