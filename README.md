@@ -14,6 +14,6 @@ Daily log of my JavaScript journey, following the course curriculum.
 ---
 
 ## 🎯 Progress Stats
-* **Course Modules Completed:** 4 / 13
+* **Course Modules Completed:** 5 / 13
 
 ---
