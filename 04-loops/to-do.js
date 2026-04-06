@@ -1,5 +1,7 @@
 let todo = [];
 
+console.log("todo activated!");
+
 let request = prompt("Please enter your request :");
 
 while (true) {

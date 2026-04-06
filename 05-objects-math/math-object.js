@@ -13,12 +13,6 @@ console.log(Math.ceil(65.16));
 console.log(Math.random()); // Range - [0,1) | 0 - inclusive, 1 - exclusive
 
 //generate random int from 1 to 10 
-console.log(Math.ceil(Math.random()*10));
-//generate random int from 0 to 9
-console.log(Math.floor(Math.random()*10));
-
-//generate random int from 1 to 100 
-console.log(Math.ceil(Math.random()*100));
-//generate random int from 1 to 5
-console.log(Math.ceil(Math.random()*5));
+console.log(Math.floor(Math.random()*10) + 1);
+//we do NOT use Math.ciel because there is an extremely small chance that random number generated is exactly 0 which will make the range (0,10)
 

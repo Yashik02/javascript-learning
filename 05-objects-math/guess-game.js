@@ -2,9 +2,9 @@ console.log("game start!");
 
 let max = prompt("Enter the maximum range number :");
 
-let ans = Math.ceil(Math.random()*max);
+let ans = Math.floor(Math.random()*max) + 1;
 
-let guess = prompt("(press 'q' to exit) Make a guess! :");
+let guess = prompt(`(press 'q' to exit) Make a guess! 1 - ${max}:`);
 
 while(true) {
     if(guess == 'q' || guess == ans) {
@@ -17,7 +17,7 @@ while(true) {
             console.log("guess a higher number");
         }
     }
-    guess = prompt("(press 'q' to exit) Make a guess! :");
+    guess = prompt(`(press 'q' to exit) Make a guess! 1 - ${max}:`);
 }
 
 if(guess != 'q') {
