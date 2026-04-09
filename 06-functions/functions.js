@@ -25,6 +25,19 @@ function helloUser (firstName, lastName, age) {
 }
 helloUser("yashik", "bandhu", 18);
 
+//default arguments
+function hello(firstName = "User") {
+    console.log(`Hello ${firstName}!`);
+}
+hello("anusha");
+hello();
+
+function sum(a=2, b) {
+    return a+b;
+}
+console.log(sum(1,2));
+console.log(sum(4)); // arguments are assigned in order // a = 4, b = undefined
+
 //sum
 function sum(a, b) {
     return a + b;

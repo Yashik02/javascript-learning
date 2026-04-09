@@ -11,11 +11,12 @@ Daily log of my JavaScript journey, following the course curriculum.
 | 2026-04-05 | 03  | Loops, Object Literals, Math Object, ToDo list, Number guesser game| ✅ Done | [View part-1](./04-loops/) [View part-2](./05-objects-math/) |
 | 2026-04-06 | 04  | Functions, Scope, Higher Order Functions, Function Expressions| ✅ Done | [View](./06-functions/)|
 | 2026-04-07 | 05  | Arrow Functions, Scope, This, Try and catch| ✅ Done | [View](./07-arrow-functions/)|
+| 2026-04-09 | 06  | more Array meathods, array and object literals destructuring, Arguments| ✅ Done | [View](./08-array-meathods/)|
 |            |     |                                  |        |           |
 
 ---
 
 ## 🎯 Progress Stats
-* **Course Modules Completed:** 7 / 13
+* **Course Modules Completed:** 8 / 13
 
 ---
