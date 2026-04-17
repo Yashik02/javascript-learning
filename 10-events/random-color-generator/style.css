@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+div {
+    border: 1.5px solid black;
+    margin: 2.5% 20%;
+    height: 150px;
+}
+

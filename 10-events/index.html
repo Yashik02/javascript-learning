@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- onClick -->
+    <button>pink!</button>
+    <button>blue!</button>
+
+    <hr>
+
+    <!-- onMouseEnter -->
+    <button>enter your mouse</button>
+
+    <hr>
+
+    <!-- eventListeners -->
+    <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener">MDN - EventListeners</a>
+    <button>Say Hello</button>
+    <button>double click button</button>
+    
+    <hr>
+
+    <!-- "this" in eventListeners -->
+
+    <div class="box">
+      <h1>this is a box.</h1>
+      <p>this is an inner paragraph</p>
+    </div>
+
+    <hr>
+
+    <!-- default argument event -->
+    <button>button 6</button>
+
+    <hr>
+
+    <input type="text" placeholder="enter your moves">
+    <button>enter</button>
+
+    <hr>
+    
+    <h3>Form</h3>
+    <form action="/action" target="_blank">
+      <input type="text" placeholder="username">
+      <button type="submit">register</button>
+      <button type="reset">reset</button>
+    </form>
+
+    <hr>
+    
+    <h3>Form1</h3>
+    <form action="/action" target="_blank">
+      <input type="text" placeholder="username" id="user">
+      <input type="password" placeholder="password" id="pass">
+      <button type="submit">register</button>
+    </form>
+
+    <hr>
+    <h3>Form2</h3>
+    <form action="/action" target="_blank">
+      <input type="text" placeholder="text">
+      <button type="submit">register</button>
+    </form>
+
+    <hr>
+    <h3>Text Editor</h3>
+    <p id="writtenText"></p>
+    <input type="text" placeholder="start typing" id="inputText">
+    <hr>
+
+    <!-- inline js - not used that much  -->
+    <button id="inline-js-button" onclick="console.log('hello');">inline js button</button>
+    
+    <script src="app.js"></script>
+  </body>
+</html>

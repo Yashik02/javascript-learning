@@ -1,0 +1,9 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+    margin: 1rem;
+    padding: 0.5rem;
+    overflow: scroll;
+    text-align: justify;
+}
