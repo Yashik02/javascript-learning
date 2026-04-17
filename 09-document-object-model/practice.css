@@ -1,0 +1,27 @@
+.red {
+    color : red;
+}
+
+.blue {
+    color : blue;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.pink-bg {
+    background-color: pink;
+}
+
+.blue-bg {
+    background-color: blue;
+}
+
+.white {
+    color: white;
+}
+
+.purple {
+    color: purple;
+}

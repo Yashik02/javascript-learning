@@ -12,11 +12,12 @@ Daily log of my JavaScript journey, following the course curriculum.
 | 2026-04-06 | 04  | Functions, Scope, Higher Order Functions, Function Expressions| ✅ Done | [View](./06-functions/)|
 | 2026-04-07 | 05  | Arrow Functions, Scope, This, Try and catch| ✅ Done | [View](./07-arrow-functions/)|
 | 2026-04-09 | 06  | more Array meathods, array and object literals destructuring, Arguments| ✅ Done | [View](./08-array-meathods/)|
+| 2026-04-17 | 07  | DOM, selecting elements, manipulating content, navigating objects, adding/removing objects| ✅ Done | [View](./09-document-object-model/)|
 |            |     |                                  |        |           |
 
 ---
 
 ## 🎯 Progress Stats
-* **Course Modules Completed:** 8 / 13
+* **Course Modules Completed:** 9 / 13
 
 ---
