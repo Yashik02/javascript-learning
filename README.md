@@ -13,11 +13,11 @@ Daily log of my JavaScript journey, following the course curriculum.
 | 2026-04-07 | 05  | Arrow Functions, Scope, This, Try and catch| ✅ Done | [View](./07-arrow-functions/)|
 | 2026-04-09 | 06  | more Array meathods, array and object literals destructuring, Arguments| ✅ Done | [View](./08-array-meathods/)|
 | 2026-04-17 | 07  | DOM, selecting elements, manipulating content, navigating objects, adding/removing objects, DOM - events, random color generator| ✅ Done | [View part-1](./09-document-object-model/) [View part-2](./10-events/)|
-|            |     |                                  |        |           |
+| 2026-04-21 | 08  | made js projects, To-Do list, simon says game, learned about event delegation. | ✅ Done | [View](./11-projects/)|
 
 ---
 
 ## 🎯 Progress Stats
-* **Course Modules Completed:** 10 / 13
+* **Course Modules Completed:** 11 / 13
 
 ---
