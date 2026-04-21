@@ -1,0 +1,39 @@
+.grandParent {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 400px;
+    background-color: #43aa8b;
+    padding: auto;
+    color: white;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    background-color: #90be6d;
+    margin: auto;
+    padding: auto;
+    color: white;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    background-color: #f9c74f;
+    margin: auto;
+    padding: auto;
+    color: white;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #f2e9e4;
+}
