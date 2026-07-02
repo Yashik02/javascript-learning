@@ -40,4 +40,37 @@ async function getJokes(n) {
     }
 }
 
-getJokes(10);
+//getJokes(10);
+
+//Axios
+// it is a library used to make http request, it internally uses fetch.
+// it solves an issue, fetch does not give us exact json data, axios fixes that by giving us direct readable data
+// HTML link added!
+
+async function getJokesAxios() {
+
+    try {
+        let res = await axios.get(url, {
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+
+        //console.log(res);
+        //console.log(res.data.joke);
+        return res.data.joke;
+
+    } catch (error){
+        //console.log("ERROR --- ", error);
+        return error;
+    }
+
+}
+
+let btn = document.querySelector("button");
+let jokePara = document.querySelector("#joke");
+
+btn.addEventListener("click", async () => {
+    let joke = await getJokesAxios();
+    jokePara.innerText = joke;
+})
